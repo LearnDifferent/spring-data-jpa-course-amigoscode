@@ -28,3 +28,7 @@ In this course you learn everything there is to learn about Spring Data JPA allo
 - `git checkout section-6`
 - `git checkout section-7`
 - `git checkout section-1`
+
+## 注意事项
+
+此仓库以 [amigoscode / spring-data-jpa-course](https://github.com/amigoscode/spring-data-jpa-course) 为基础，用作 [BV1Y8411L7QA](https://www.bilibili.com/video/BV1Y8411L7QA) 的学习笔记。
