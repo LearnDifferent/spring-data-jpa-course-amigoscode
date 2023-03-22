@@ -76,19 +76,18 @@ public class Student {
             // 这里可以设定该字段为 unique key：
             // 但是因为在上面已经指定了 unique index，所以这里如果还指定的话，就会让上面的指定失效
             // ,unique = true
-    )
+            )
     private String email;
     private Integer age;
 
     public Student() {
     }
 
-    public Student(Long id,
-                   String firstName,
+    public Student(String firstName,
                    String lastName,
                    String email,
                    Integer age) {
-        this.id = id;
+        // 因为这里设定 ID 是自增的，所以构造器不需要 ID
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
